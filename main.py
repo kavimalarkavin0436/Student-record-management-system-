@@ -10,6 +10,7 @@ def db():
     con.close()
 db()
 
+# இதில் HTML மற்றும் JavaScript இரண்டும் இணைக்கப்பட்டுள்ளது
 HTML = '''
 <h2>Student System</h2>
 <input id="n" placeholder="Student Name"> <button onclick="add()">Add</button>
@@ -59,4 +60,4 @@ def delete(id):
     return 'OK'
 
 if __name__ == '__main__': app.run(port=5000)
-  
+    
